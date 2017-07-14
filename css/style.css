@@ -24,6 +24,13 @@ body a{
     float:left;
 }
 .header{
+    height: 100%; // doesn't have to be '%' can also use 'px'
+    width: 100%;
+    margin: 0 auto;
+    padding:0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     background:url(../images/header-bg.jpg) no-repeat 0px 0px;
     min-height:700px;
     background-size:cover;
@@ -90,6 +97,13 @@ a.boxclose{
     padding-right:10px;
 }
 .boxclose span{
+    height: 100%; // doesn't have to be '%' can also use 'px'
+    width: 100%;
+    margin: 0 auto;
+    padding:0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 25px;
     height: 30px;
     display: inline-block;
@@ -181,6 +195,13 @@ a.t-btn:hover{
 }
 /*-- about-us --*/
 .about{
+    height: 100%; // doesn't have to be '%' can also use 'px'
+    width: 100%;
+    margin: 0 auto;
+    padding:0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     background:url(../images/about-bg.jpg);
 }
 .about-left-grid h3{
@@ -245,11 +266,12 @@ a.t-btn:hover{
     width: 100%;
     margin: 0 auto;
     padding:0;
-    background:url(../images/about-pic.jpg) no-repeat 0px 0px;
-    min-height:580px;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
+    background:url(../images/about-pic.jpg) no-repeat 0px 0px;
+    min-height:780px;
+
 }
 /*-- services --*/
 .service-head{
