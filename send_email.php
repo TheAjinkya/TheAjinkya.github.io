@@ -6,14 +6,10 @@
   $phone= $_POST['phone'];
   $subject = $_POST['subject'];
   $comment = $_POST['comment'];
-  $finalcomment= <<<EOT
-comments are"$comment ". 
-senderName is "$name ". 
-senderEmail is "$email ".
-senderPhone is "$phone ". 
-EOT;
-if(!(mail($to, $subject, $finalcomment, "From:".$email)))
+
+$str = "comments are $comment senderName is $name senderEmail is $email senderPhone is $phone ". 
+if(!(mail($to, $subject, $str, "From: ".$email)))
    header("Location: index.html");
 else 
-echo "Thank You!";
+    echo "Thank You!";
 ?>
