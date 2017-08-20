@@ -262,7 +262,7 @@ a.t-btn:hover{
     -ms-border-radius:1.5em;
 }
 .about-right{
-    height: 100%; // doesn't have to be '%' can also use 'px'
+    height: 600px; // doesn't have to be '%' can also use 'px'
     width: 100%;
     margin: 0 auto;
     padding:0;
